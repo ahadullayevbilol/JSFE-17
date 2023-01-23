@@ -56,9 +56,9 @@ console.log(abs(-10));
 // trunc
 
 function trunc(x){
-    let num2 = String(floor);
-    num2 = num2.split('');
-    console.log(+num2[0]);
+    let num4 = String(x);
+    num4 = num4.split('');
+    console.log(+num4[0]);
 }
 
 console.log(trunc(2.189179087));
