@@ -40,10 +40,10 @@ ceil(5.1);
 // sqrt 
 
 function sqrt(x) {
-    console.log(x ** 0.5);
+    return x ** 0.5
 }
 
-sqrt(4)
+console.log(sqrt(4));
 
 // abs 
 
