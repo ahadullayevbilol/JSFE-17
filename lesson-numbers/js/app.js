@@ -63,4 +63,4 @@ function trunc(x){
     return Math.floor(x)
 }
 
-console.log(trunc(2.189179087));w
+console.log(trunc(2.189179087));
