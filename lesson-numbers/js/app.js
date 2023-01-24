@@ -40,10 +40,10 @@ ceil(5.1);
 // sqrt 
 
 function sqrt(x) {
-    console.log(x ** 0.5);
+    return x ** 0.5
 }
 
-sqrt(4)
+console.log(sqrt(4));
 
 // abs 
 
@@ -60,7 +60,9 @@ console.log(abs(-7));
 // trunc
 
 function trunc(x){
-    return Math.floor(x)
+    let num4 = String(x);
+    num4 = num4.split('');
+    console.log(+num4[0]);
 }
 
 console.log(trunc(2.189179087));
