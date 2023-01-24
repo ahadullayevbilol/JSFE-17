@@ -48,10 +48,14 @@ sqrt(4)
 // abs 
 
 function abs(x){
-    return x * -1
+    if(x < 0) {
+        return x * -1
+    }else {
+        return x
+    }
 }
 
-console.log(abs(-10));
+console.log(abs(-7));
 
 // trunc
 
@@ -59,4 +63,4 @@ function trunc(x){
     return Math.floor(x)
 }
 
-console.log(trunc(2.189179087));
+console.log(trunc(2.189179087));w
