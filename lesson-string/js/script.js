@@ -31,7 +31,7 @@ console.log(repeat('Open web', 5));
 //function-toUpperCase-toLowerCase
 
 function checkFirstLetter(str){
-    return `${str.slice(0, 1).toUpperCase()}${str.slice(1).toLowerCase()}`
+    return `${str[0].toUpperCase()}${str.slice(1).toLowerCase()}`
 }
 
 console.log(checkFirstLetter('bilol'));
