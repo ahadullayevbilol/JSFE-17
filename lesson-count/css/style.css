@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  font-family: monospace;
+  background-color: black;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.zero {
+  color: white;
+  font-size: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.inc {
+  padding: 15px;
+  font-size: 23px;
+  color: black;
+  background-color: blue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.dec {
+  padding: 15px;
+  font-size: 23px;
+  color: black;
+  background-color: blue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.res {
+  padding: 15px;
+  font-size: 23px;
+  color: black;
+  background-color: blue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.rnd {
+  padding: 15px;
+  font-size: 23px;
+  color: black;
+  background-color: blue;
+  border-radius: 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

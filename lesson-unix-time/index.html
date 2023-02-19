@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIX time</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="wrapper">
+            <div class="wrapper_unix_time">
+                <h1>The Current Epoch Unix Timestamp</h1>
+                <h3>Enter a Timestamp</h3>
+                <input type="number" placeholder="1676546038">
+                <p>Supports Unix timestamps in seconds, milliseconds, microseconds and nanoseconds.</p>
+                <button class="convert">Convert</button><button class="close">Close</button>
+            </div>
+            <div class="time">
+                    <h1 class="millisecond_time"></h1>
+                    <h3>SECONDS SINCE JAN 01 1970. (UTC)</h3>
+                <div class="utc">
+                    <div class="hour">00</div>
+                    <span>:</span>
+                    <div class="minute">00</div>
+                    <span>:</span>
+                    <div class="second">00</div>
+                </div>
+            </div>
+        </div>
+        <table>
+            <tbody>
+                <tr>
+                    <th>Format</th>
+                    <td class="td2">Seconds</td> 
+                </tr>
+                <tr>
+                    <th>GMT</th>
+                    <td class="td">Thu Mar 26 1987 11:42:23 GMT+0000</td> 
+                </tr>
+                <tr>
+                    <th>Your Time Zone</td>
+                    <td class="td1">Thu Mar 26 1987 17:42:23 GMT+0600 (Узбекистан, стандартное время)</td> 
+                </tr>
+                
+            </tbody>
+        </table>
+        <div class="date">
+            <h1>Enter a Date & Time</h1>
+            <div class="inputes">
+                <div>
+                    <h4>Year</h4>
+                    <input type="number" class="year" placeholder="YYYY">
+                </div>
+                <div>
+                    <h4>Month</h4>
+                    <input type="number" class="month" placeholder="MM">
+                </div>
+                <div>
+                    <h4>Day</h4>
+                    <input type="number" class="day" placeholder="DD">
+                </div>
+                <div>
+                    <h4>Hour (24hour)</h4>
+                    <input type="number" class="hour" placeholder="HH">
+                </div>
+                <div>
+                    <h4>Minutes</h4>
+                    <input type="number" class="minutes" placeholder="MM">
+                </div>
+                <div>
+                    <h4>Seconds</h4>
+                    <input type="number" class="seconds" placeholder="SS">
+                </div>
+            </div>
+            <button type="submit" class="convert2">Convert</button>
+            <button type="submit" class="close2">Close</button>
+        </div>
+        <table class="table2">
+            <tr>
+                <th>Unix Time Stamp</th>
+                <td class="unix-time"></td>
+            </tr>
+            <tr>
+                <th>GMT</th>
+                <td class="gmt"></td>
+            </tr>
+            <tr>
+                <th>Your time zone</th>
+                <td class="time_zone">Thu Feb 16 2023 12:42:38 GMT+0500 (Узбекистан, стандартное время)</td>
+            </tr>
+        </table>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

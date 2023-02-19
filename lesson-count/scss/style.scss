@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: monospace;
+    background-color: black;
+    user-select: none;
+}
+
+.zero {
+    color: white;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inc {
+    padding: 15px;
+    font-size: 23px;
+    color: black;
+    background-color: blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dec {
+    padding: 15px;
+    font-size: 23px;
+    color: black;
+    background-color: blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.res {
+    padding: 15px;
+    font-size: 23px;
+    color: black;
+    background-color: blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.rnd {
+    padding: 15px;
+    font-size: 23px;
+    color: black;
+    background-color: blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
