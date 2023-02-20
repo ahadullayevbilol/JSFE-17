@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url("../img/background-image.png");
+  background-color: hsl(235deg, 16%, 14%);
+  background-repeat: no-repeat;
+  font-family: "Red Hat Text", sans-serif;
+  color: white;
+}
+
+.container {
+  width: 688px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin-top: 132px;
+  margin-bottom: 172px;
+}
+.container h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: 7.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 104px;
+}
+.container .clock {
+  width: 100%;
+  height: 184px;
+}
+.container .clock .container_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 184px;
+}
+.container .clock .container_content .days,
+.container .clock .container_content .hours,
+.container .clock .container_content .minutes,
+.container .clock .container_content .seconds {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 148px;
+  height: 140px;
+  background: #343650;
+  border-radius: 8px;
+}
+.container .clock .container_content .days h2,
+.container .clock .container_content .hours h2,
+.container .clock .container_content .minutes h2,
+.container .clock .container_content .seconds h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 71px;
+  text-align: center;
+  letter-spacing: -2.4px;
+  color: #fb5e84;
+}
+.container .clock .words {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 18px;
+  margin-top: -26px;
+}
+.container .clock .words h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 148px;
+  height: 18px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 5.91875px;
+  color: #8385a9;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../img/footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 180px;
+}
+footer .footer_part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 136px;
+  height: 24px;
+}
+footer .footer_part i {
+  font-size: 24px;
+  color: #8385a9;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+footer .footer_part i:hover {
+  color: #fb5e84;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    width: 100%;
+  }
+  .container h1 {
+    margin-bottom: 0;
+  }
+  .container .clock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .container .clock .container_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 32px;
+  }
+  .container .clock .container_content .days,
+  .container .clock .container_content .hours,
+  .container .clock .container_content .minutes,
+  .container .clock .container_content .seconds {
+    width: 70px;
+    height: 66px;
+    border-radius: 4px;
+  }
+  .container .clock .container_content .days h2,
+  .container .clock .container_content .hours h2,
+  .container .clock .container_content .minutes h2,
+  .container .clock .container_content .seconds h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 71px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    letter-spacing: -1.08px;
+    color: #fb5e84;
+  }
+  .container .clock .words {
+    width: 397px;
+  }
+  .container .clock .words h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7px;
+    line-height: 9px;
+    text-align: center;
+    letter-spacing: 2.95937px;
+    color: #8385a9;
+  }
+  .footer {
+    width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    background-size: auto;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .container .clock .words {
+    width: 100%;
+  }
+  .container .clock .words h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7px;
+    line-height: 9px;
+    text-align: center;
+    letter-spacing: 2.95937px;
+    color: #8385a9;
+  }
+}/*# sourceMappingURL=style.css.map */
